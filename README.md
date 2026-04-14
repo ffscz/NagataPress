@@ -1,2 +1,2 @@
-# cyberlang
-Cyberlang AI Website Translation
+# NagataPress
+NagataPress - AI Website Translation Plugin for WordPress
