@@ -1,0 +1,41 @@
+name: Mistake in the skill / Chyba ve skillu
+description: The skill tells your assistant something that does not match NagataPress.
+title: "[Skill] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for the report. **Do not post a security issue here**, use a [private vulnerability report](https://github.com/ffscz/NagataPress/security/advisories/new).
+        For licensing, billing or help with your site, use the [contact page](https://nagatapress.com/contact/). You can write in English, Czech or Slovak.
+  - type: input
+    id: skill
+    attributes:
+      label: Skill version / Verze skillu
+      description: "`plugin-version` in SKILL.md, or the name of the ZIP."
+      placeholder: "1.3.23"
+    validations:
+      required: true
+  - type: input
+    id: plugin
+    attributes:
+      label: Plugin version on your site / Verze pluginu na webu
+      description: On the Plugins screen, or what `nagatapress_status` reports.
+      placeholder: "1.3.23"
+  - type: input
+    id: client
+    attributes:
+      label: AI tool / AI nástroj
+      placeholder: "Claude Code, Codex CLI, ChatGPT.com, Cursor..."
+  - type: textarea
+    id: what
+    attributes:
+      label: What went wrong / Co se stalo
+      description: What the skill says, what your assistant did, and what the plugin or site actually does. Paste the tool answer or the message if there was one. Leave out personal data and keys.
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where in the skill / Kde ve skillu
+      placeholder: "references/mcp-translation.md, section 6"

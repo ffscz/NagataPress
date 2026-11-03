@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation / Dokumentace
+    url: https://nagatapress.com/docs/
+    about: Setup, connecting your AI tool, translating and troubleshooting.
+  - name: Questions and ideas / Dotazy a nápady
+    url: https://github.com/ffscz/NagataPress/discussions
+    about: Questions about the skill and ideas for it.
+  - name: Licensing, billing, help with your site / Licence, platby, pomoc s webem
+    url: https://nagatapress.com/contact/
+    about: The plugin is not developed in this repository. Write to us through the website.
+  - name: Security issue / Bezpečnostní chyba
+    url: https://github.com/ffscz/NagataPress/security/advisories/new
+    about: Report a vulnerability privately, not in a public issue.
