@@ -1,0 +1,6 @@
+interface:
+  display_name: "NagataPress"
+  short_description: "Translate a WordPress site with the NagataPress MCP tools, connect AI tools, set up and troubleshoot NagataPress"
+  default_prompt: "Use $nagatapress to translate my WordPress site with the NagataPress tools."
+policy:
+  allow_implicit_invocation: true
