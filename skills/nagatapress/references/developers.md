@@ -86,6 +86,7 @@ wp nagatapress status
 | `nagatapress_is_builder_request` | Whether a request is a page builder's editor, canvas or live preview, which NagataPress leaves alone (1.3.14). | `$is` | true for the builders NagataPress knows |
 | `nagatapress_js_masked_max_segment_length`, `nagatapress_js_masked_max_bytes`, `nagatapress_js_masked_max_pairs` | Limits of the texts with prices and numbers in the in-browser translation map (1.3.18). | the value | `160`, `8192`, `100` |
 | `nagatapress_mcp_archive_taxonomies` | Taxonomies whose term archive pages an assistant's pass visits (1.3.17). | `$taxonomies` | public taxonomies with archives (categories, tags, `pa_*`, brands...), not post formats |
+| `nagatapress_mcp_read_second_page` | Whether an assistant's pass also reads the second page of an archive (1.3.25). Turn off for a host that limits requests from the site to itself. | `$read` | `true` |
 | `nagatapress_mcp_fetch_parallel` | Pages an assistant's pass fetches at once (1 to 10). | `$count` | `4` |
 | `nagatapress_mcp_page_index` | Whether an assistant's pass keeps the texts of fetched pages and takes an unchanged page from there next time (1.3.18). | `$on` | `true` |
 | `nagatapress_mcp_page_index_options`, `nagatapress_mcp_page_index_layout_types` | Options and post types (templates, menus) the page index watches: a change fetches every page again. Add the option of a plugin that prints a text on every page. | `$names`; `$types` | NagataPress' own list |
