@@ -165,11 +165,12 @@ New AI work stops with "AI translation is paused:" plus a reason; visitors keep 
 | the NagataPress license is not active on this site | License screen, activate a valid key. |
 | the (plan name) period has ended | A one-time license ended: switch to a subscription or lifetime license. |
 | the NagataPress license could not be verified for more than 7 days | Allow outgoing HTTPS from the server, then Check again. |
+| the license key stored on this site cannot be read | The WordPress security keys changed (site moved or copied). License screen: enter the key again; no need to deactivate first. |
 | no NagataPress license is activated on this site | Activate a key. |
 
 Activation messages: "License key not found." (check the key), "Invalid license key format.", "This license has reached its activation limit. Deactivate it on another site first." (lists the sites), "License service temporarily unavailable...", "Connection error: ..." (outgoing HTTPS blocked).
 
-A site copied without deactivating and with different security keys shows an empty key field, Deactivate answers "No license to deactivate", and AI work pauses after 7 days.
+A site copied with different security keys shows **key cannot be read** in the status bar, the Overview and the License screen (before 1.3.24: "active", an unreachable license server, no updates, and Deactivate answered "No license to deactivate"). AI work pauses at once and no updates are offered; visitors keep the translations. Enter the key again on the License screen, which also brings updates back. Deactivate works too, but the license server cannot be told, so the earlier activation still counts toward the limit.
 
 ## 9. Frequently asked questions
 

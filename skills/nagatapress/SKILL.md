@@ -3,7 +3,7 @@ name: nagatapress
 description: Expert help for NagataPress, the AI translation plugin for WordPress and WooCommerce. Use it to translate a site with the NagataPress MCP tools (nagatapress_get_batch, nagatapress_submit_batch, nagatapress_fix_translations) or abilities, to set NagataPress up through them, to connect Claude, ChatGPT, Codex, Cursor or another MCP client to a site, and to answer questions on setup, licensing, languages, SEO, WooCommerce, WP-CLI, hooks, migration and troubleshooting. Use it whenever NagataPress or its tools come up.
 compatibility: Works in any client that reads Agent Skills (Claude, Claude Code, Codex, ChatGPT). Translating needs the NagataPress MCP tools connected; everything else works without them.
 metadata:
-  plugin-version: "1.3.23"
+  plugin-version: "1.3.24"
   docs: "https://nagatapress.com/docs/"
 ---
 
@@ -11,7 +11,7 @@ metadata:
 
 NagataPress translates a WordPress site by replacing each piece of text on the finished page with a stored translation. Translations live in the site's own database, one row per text segment and language pair; a page view only reads them and never calls an AI. So "translating the site" means filling that translation memory, either with an AI provider and an API key (the plugin calls it) or with an AI assistant over MCP (you, through the tools described below).
 
-This skill describes version 1.3.23. When a tool answer or a screen on the user's site says something different, trust the site: it is the newer source. `nagatapress_status` reports the site's `plugin_version`.
+This skill describes version 1.3.24. When a tool answer or a screen on the user's site says something different, trust the site: it is the newer source. `nagatapress_status` reports the site's `plugin_version`.
 
 ## Pick the job
 
