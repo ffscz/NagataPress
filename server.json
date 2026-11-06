@@ -3,7 +3,7 @@
   "name": "io.github.ffscz/nagatapress",
   "title": "NagataPress",
   "description": "Translate a WordPress or WooCommerce site with your AI assistant, over MCP on your own site.",
-  "version": "1.3.23",
+  "version": "1.3.24",
   "websiteUrl": "https://nagatapress.com/translate-woocommerce-with-claude-chatgpt/",
   "repository": {
     "url": "https://github.com/ffscz/NagataPress",
