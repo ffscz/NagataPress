@@ -110,7 +110,7 @@ add_filter( 'nagatapress_max_runtime_segments', function ( $limit, $lang, $html 
 
 ## 3. The `[nagatapress]` shortcode and switcher markup
 
-`[nagatapress]` draws the language switcher where it is placed (page, widget, builder header or footer, template). The only attribute is `style`: `classic` (Globe + Name), `globe-code`, `globe-only`, `flags-name`, `flags-code`, `flags-only`, `inline-flags`, `name-only`, `code-only`, `inline`. Without it, or with an unknown value, the style from Widget Style is used. With Widget Position = Shortcode there is no floating widget; with a corner position the shortcode adds a second switcher.
+`[nagatapress]` draws the language switcher where it is placed (page, widget, builder header or footer, template). The only attribute is `style`: `classic` (Globe + Name), `globe-code`, `globe-only`, `flags-name`, `flags-code`, `flags-only`, `flag-menu`, `inline-flags`, `name-only`, `code-only`, `inline`. Without it, or with an unknown value, the style from Widget Style is used. With Widget Position = Shortcode there is no floating widget; with a corner position the shortcode adds a second switcher.
 
 Markup: the floating widget's container has the ID `nagatapress-switcher`; shortcode switchers have `nagatapress-inline`, `nagatapress-inline-2`, ... Every switcher container has the class `notranslate`. URL Exclusions hide all of them on the listed paths.
 
